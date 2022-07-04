@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Alertas en Javascript</title>
+<script>
+    function PromptDemo() {
+         //El usuario ingresa una pregunta
+         var idioma = prompt("¿Que idioma te gusta?", "");
+	 //Verificamos si el usuario ingresó un valor
+	 if (idioma != null){
+	 alert("Tu idioma favorito es " + idioma);
+}
+//Verificamos si el usuario no ingresó un valor
+else {
+alert("No has ingresado ningún idioma");
+
+  }
+
+}
+
+</script>
+</head>
+<!-- Esto es una página web no completa para escribir javascript -->
+<body>
+
+<input type="button" onclick="PromptDemo();" value="verificar"/>
+
+</body>
+</html>
+
